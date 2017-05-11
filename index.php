@@ -10,7 +10,7 @@ $core->setTemplateDir('templates/');
 $data = new Dwoo\Data();
 
 // sample data
-$data->assign('pageTitle', 'PHP Starter for KMUTNB#3 Agile Training');
+$data->assign('pageTitle', 'PHP Starter for KMUTNB#4 Agile Training');
 $data->assign('pageContent', 'Welcome to agile training, this is just example php project');
 
 $email = new Email('johndoe@sg.com');
